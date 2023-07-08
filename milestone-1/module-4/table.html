@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <style>
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px 10px;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audioVideo.html">Video</a></li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                    <ul class="dropdown">
+                        <li><a href="audioVideo.html">Video</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li>
+                            <a href="form.html ">Form</a>
+                            <ul class="dropdown">
+                                <li><a href="audioVideo.html">Video</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li>
+                                    <a href="form.html ">Form</a>
+                                    <ul class="dropdown">
+                                        <li><a href="audioVideo.html">Video</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="form.html ">Form</a></li>
+                                        <li><a href="table.html">Table</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="table.html">Table</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul>
+                </li>
+                <li><a href="form.html ">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <caption>Salary Table</caption>
+            <thead>
+                <tr>
+                    <th>NO.</th>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Founder Microsoft</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Founder Apple</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Pags</td>
+                    <td>Founder Google</td>
+                    <td>$1300</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark Jukarbar</td>
+                    <td>Founder Facebook</td>
+                    <td>$1500</td>
+                </tr>
+            </tbody>
+            <tfoot>                                         3
+                <tr>
+                    <td colspan="4">Total Employee Saraly-4</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+
+</html>

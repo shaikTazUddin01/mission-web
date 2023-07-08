@@ -1,0 +1,15 @@
+nav>ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+footer{
+    text-align: center;
+}
